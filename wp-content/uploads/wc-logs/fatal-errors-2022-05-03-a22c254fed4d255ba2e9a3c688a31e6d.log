@@ -1,0 +1,25 @@
+2022-05-03T10:55:45+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1207
+
+2022-05-03T10:56:31+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1207
+
+2022-05-03T10:56:43+00:00 CRITICAL syntax error, unexpected '/' in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1207
+
+2022-05-03T10:56:55+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1207
+
+2022-05-03T10:58:44+00:00 CRITICAL syntax error, unexpected 'esc_url' (T_STRING), expecting ';' or ',' in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1207
+
+2022-05-03T10:58:46+00:00 CRITICAL syntax error, unexpected 'esc_url' (T_STRING), expecting ';' or ',' in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1207
+
+2022-05-03T11:05:58+00:00 CRITICAL Uncaught Error: Call to undefined function WCVendors_Pro_Vendor_Controller() in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1200
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): woocommerce_template_loop_product_link_open('')
+#1 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\templates\content-product.php(34): do_action('woocommerce_bef...')
+#4 C:\xampp\htdocs\meet_demo\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\templates\archive-product.php(70): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\meet_demo\wp-include in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1200
+
+2022-05-03T11:06:12+00:00 CRITICAL syntax error, unexpected ':' in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1200
+

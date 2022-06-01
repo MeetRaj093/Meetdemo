@@ -1,0 +1,67 @@
+2022-05-04T05:22:06+00:00 CRITICAL Uncaught Error: Class 'WCVendors_Pro_Vendor_Controller' not found in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1203
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): woocommerce_template_loop_product_link_open('')
+#1 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\templates\content-product.php(34): do_action('woocommerce_bef...')
+#4 C:\xampp\htdocs\meet_demo\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\meet_dem in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1203
+
+2022-05-04T07:39:26+00:00 CRITICAL Uncaught Error: Call to undefined function wcv_get_vendor_name() in C:\xampp\htdocs\meet_demo\wp-content\plugins\wcvendors-pro-report-product-feature\admin\widgets\class-wcvendors-pro-widget-store-search.php:23
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-widget-factory.php(61): WCV_Widget_Store_Search->__construct()
+#1 C:\xampp\htdocs\meet_demo\wp-includes\widgets.php(115): WP_Widget_Factory->register('WCV_Widget_Stor...')
+#2 C:\xampp\htdocs\meet_demo\wp-content\plugins\wcvendors-pro-report-product-feature\admin\class-wcvendors-pro-admin.php(421): register_widget('WCV_Widget_Stor...')
+#3 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): WCVendors_Pro_Admin->register_widgets('')
+#4 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\meet_demo\wp-includes\widgets.php(1854): do_action('widgets_init')
+#7 C:\xampp\htdocs\meet_demo\wp-inclu in C:\xampp\htdocs\meet_demo\wp-content\plugins\wcvendors-pro-report-product-feature\admin\widgets\class-wcvendors-pro-widget-store-search.php on line 23
+
+2022-05-04T07:39:28+00:00 CRITICAL Uncaught Error: Call to undefined function wcv_get_vendor_name() in C:\xampp\htdocs\meet_demo\wp-content\plugins\wcvendors-pro-report-product-feature\admin\widgets\class-wcvendors-pro-widget-store-search.php:23
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-widget-factory.php(61): WCV_Widget_Store_Search->__construct()
+#1 C:\xampp\htdocs\meet_demo\wp-includes\widgets.php(115): WP_Widget_Factory->register('WCV_Widget_Stor...')
+#2 C:\xampp\htdocs\meet_demo\wp-content\plugins\wcvendors-pro-report-product-feature\admin\class-wcvendors-pro-admin.php(421): register_widget('WCV_Widget_Stor...')
+#3 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): WCVendors_Pro_Admin->register_widgets('')
+#4 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\meet_demo\wp-includes\widgets.php(1854): do_action('widgets_init')
+#7 C:\xampp\htdocs\meet_demo\wp-inclu in C:\xampp\htdocs\meet_demo\wp-content\plugins\wcvendors-pro-report-product-feature\admin\widgets\class-wcvendors-pro-widget-store-search.php on line 23
+
+2022-05-04T07:43:57+00:00 CRITICAL Uncaught Error: Call to undefined function wcv_get_vendor_name() in C:\xampp\htdocs\meet_demo\wp-content\plugins\wcvendors-pro-report-product-feature_old\admin\widgets\class-wcvendors-pro-widget-store-search.php:23
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-widget-factory.php(61): WCV_Widget_Store_Search->__construct()
+#1 C:\xampp\htdocs\meet_demo\wp-includes\widgets.php(115): WP_Widget_Factory->register('WCV_Widget_Stor...')
+#2 C:\xampp\htdocs\meet_demo\wp-content\plugins\wcvendors-pro-report-product-feature_old\admin\class-wcvendors-pro-admin.php(421): register_widget('WCV_Widget_Stor...')
+#3 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): WCVendors_Pro_Admin->register_widgets('')
+#4 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\meet_demo\wp-includes\widgets.php(1854): do_action('widgets_init')
+#7 C:\xampp\htdocs\meet_demo\ in C:\xampp\htdocs\meet_demo\wp-content\plugins\wcvendors-pro-report-product-feature_old\admin\widgets\class-wcvendors-pro-widget-store-search.php on line 23
+
+2022-05-04T07:43:58+00:00 CRITICAL Uncaught Error: Call to undefined function wcv_get_vendor_name() in C:\xampp\htdocs\meet_demo\wp-content\plugins\wcvendors-pro-report-product-feature_old\admin\widgets\class-wcvendors-pro-widget-store-search.php:23
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-widget-factory.php(61): WCV_Widget_Store_Search->__construct()
+#1 C:\xampp\htdocs\meet_demo\wp-includes\widgets.php(115): WP_Widget_Factory->register('WCV_Widget_Stor...')
+#2 C:\xampp\htdocs\meet_demo\wp-content\plugins\wcvendors-pro-report-product-feature_old\admin\class-wcvendors-pro-admin.php(421): register_widget('WCV_Widget_Stor...')
+#3 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): WCVendors_Pro_Admin->register_widgets('')
+#4 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\meet_demo\wp-includes\widgets.php(1854): do_action('widgets_init')
+#7 C:\xampp\htdocs\meet_demo\ in C:\xampp\htdocs\meet_demo\wp-content\plugins\wcvendors-pro-report-product-feature_old\admin\widgets\class-wcvendors-pro-widget-store-search.php on line 23
+
+2022-05-04T07:49:32+00:00 CRITICAL syntax error, unexpected ''" class="woocommerce-LoopProd' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1210
+
+2022-05-04T07:49:35+00:00 CRITICAL syntax error, unexpected ''" class="woocommerce-LoopProd' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1210
+
+2022-05-04T07:50:01+00:00 CRITICAL syntax error, unexpected ''" class="woocommerce-LoopProd' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1210
+
+2022-05-04T07:50:10+00:00 CRITICAL syntax error, unexpected ''" class="woocommerce-LoopProd' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1210
+
+2022-05-04T07:50:16+00:00 CRITICAL syntax error, unexpected ''" class="woocommerce-LoopProd' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1210
+
+2022-05-04T07:51:13+00:00 CRITICAL syntax error, unexpected ''" class="woocommerce-LoopProd' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1210
+

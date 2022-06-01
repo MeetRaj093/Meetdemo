@@ -1,0 +1,2 @@
+2022-05-13T05:09:22+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce/packages/woocommerce-admin/src/Notes/NewSalesRecord.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php on line 87
+

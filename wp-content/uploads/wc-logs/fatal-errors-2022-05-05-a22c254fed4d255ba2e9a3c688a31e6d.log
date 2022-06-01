@@ -1,0 +1,41 @@
+2022-05-05T09:04:57+00:00 CRITICAL Uncaught Error: Call to undefined method WCV_Vendors::get_vendor_shop_page() in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\classes\front\class-vendor-shop.php:66
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(309): WCV_Vendor_Shop::change_archive_link('http://localhos...')
+#1 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(189): WP_Hook->apply_filters('http://localhos...', Array)
+#2 C:\xampp\htdocs\meet_demo\wp-includes\link-template.php(1342): apply_filters('post_type_archi...', 'http://localhos...', 'product')
+#3 C:\xampp\htdocs\meet_demo\wp-includes\link-template.php(1362): get_post_type_archive_link('product')
+#4 C:\xampp\htdocs\meet_demo\wp-includes\general-template.php(3168): get_post_type_archive_feed_link('product')
+#5 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): feed_links_extra(Array)
+#6 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_ in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\classes\front\class-vendor-shop.php on line 66
+
+2022-05-05T09:23:25+00:00 CRITICAL Uncaught Error: Call to undefined method WCV_Vendors::is_vendor_page() in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\classes\front\class-vendor-shop.php:367
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): WCV_Vendor_Shop->vendor_page_title(Array)
+#1 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\meet_demo\wp-includes\general-template.php(1263): apply_filters('document_title_...', Array)
+#3 C:\xampp\htdocs\meet_demo\wp-includes\general-template.php(1292): wp_get_document_title()
+#4 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): _wp_render_title_tag('')
+#5 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\meet_demo\wp-includes\general-template.php(3042): do_action('wp_head')
+#8 C:\xampp\htdocs\meet_demo\wp-content\themes\storefront\header.php(18 in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\classes\front\class-vendor-shop.php on line 367
+
+2022-05-05T11:25:05+00:00 CRITICAL Uncaught Error: Call to undefined method WCV_Vendors::is_vendor_page() in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\classes\front\class-vendor-shop.php:367
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): WCV_Vendor_Shop->vendor_page_title(Array)
+#1 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\meet_demo\wp-includes\general-template.php(1263): apply_filters('document_title_...', Array)
+#3 C:\xampp\htdocs\meet_demo\wp-includes\general-template.php(1292): wp_get_document_title()
+#4 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): _wp_render_title_tag('')
+#5 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\meet_demo\wp-includes\general-template.php(3042): do_action('wp_head')
+#8 C:\xampp\htdocs\meet_demo\wp-content\themes\storefront\header.php(18 in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\classes\front\class-vendor-shop.php on line 367
+
+2022-05-05T12:31:15+00:00 CRITICAL Cannot redeclare WC() (previously declared in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\woocommerce.php:47) in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce_old\woocommerce.php on line 46
+
+2022-05-05T12:31:17+00:00 CRITICAL Cannot redeclare WC() (previously declared in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\woocommerce.php:47) in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce_old\woocommerce.php on line 46
+
+2022-05-05T12:31:17+00:00 CRITICAL Cannot redeclare WC() (previously declared in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\woocommerce.php:47) in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce_old\woocommerce.php on line 46
+

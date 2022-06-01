@@ -1,0 +1,26 @@
+2022-05-17T05:48:40+00:00 CRITICAL Uncaught Error: Cannot access private const Automattic\WooCommerce\Internal\DataStores\Orders\CustomOrdersTableController::CUSTOM_ORDERS_TABLE_USAGE_ENABLED_OPTION in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\DataSynchronizer.php:158
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\DataSynchronizer.php(129): Automattic\WooCommerce\Internal\DataStores\Orders\DataSynchronizer->get_current_orders_pending_sync_count()
+#1 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\CustomOrdersTableController.php(307): Automattic\WooCommerce\Internal\DataStores\Orders\DataSynchronizer->get_sync_status()
+#2 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\CustomOrdersTableController.php(90): Automattic\WooCommerce\Internal\DataStores\Orders\CustomOrdersTableController->get_settings(Array, 'custom_data_sto...')
+#3 C:\xampp\htdocs\meet_demo\wp-includes\ in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\DataSynchronizer.php on line 158
+
+2022-05-17T06:32:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wcvendor_change_archive_link(), 2 passed in C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php on line 307 and exactly 5 expected in C:\xampp\htdocs\meet_demo\wp-content\plugins\wcvendors-pro-report-product-feature_old\public\wcv-template-functions.php:155
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): wcvendor_change_archive_link('http://localhos...', Object(WC_Product_Simple))
+#1 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(189): WP_Hook->apply_filters('http://localhos...', Array)
+#2 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1198): apply_filters('woocommerce_loo...', 'http://localhos...', Object(WC_Product_Simple))
+#3 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): woocommerce_template_loop_product_link_open('')
+#4 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\meet_demo\wp-includ in C:\xampp\htdocs\meet_demo\wp-content\plugins\wcvendors-pro-report-product-feature_old\public\wcv-template-functions.php on line 155
+
+2022-05-17T06:45:05+00:00 CRITICAL Uncaught Error: Call to a member function vendor_shop() on null in C:\xampp\htdocs\meet_demo\wp-content\plugins\wcvendors-pro-report-product-feature_old\public\wcv-template-functions.php:160
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): wcvendor_change_archive_link('http://localhos...', Object(WC_Product_Simple))
+#1 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(189): WP_Hook->apply_filters('http://localhos...', Array)
+#2 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1198): apply_filters('woocommerce_loo...', 'http://localhos...', Object(WC_Product_Simple))
+#3 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): woocommerce_template_loop_product_link_open('')
+#4 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\templates\content-produc in C:\xampp\htdocs\meet_demo\wp-content\plugins\wcvendors-pro-report-product-feature_old\public\wcv-template-functions.php on line 160
+

@@ -1,0 +1,122 @@
+2022-05-02T06:04:21+00:00 CRITICAL syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ',' in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\templates\front\vendor-sold-by.php on line 32
+
+2022-05-02T06:04:50+00:00 CRITICAL syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ',' in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\templates\front\vendor-sold-by.php on line 32
+
+2022-05-02T06:05:23+00:00 CRITICAL syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ',' in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\templates\front\vendor-sold-by.php on line 32
+
+2022-05-02T06:06:19+00:00 CRITICAL syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ',' in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\templates\front\vendor-sold-by.php on line 32
+
+2022-05-02T06:07:04+00:00 CRITICAL syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ',' in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\templates\front\vendor-sold-by.php on line 32
+
+2022-05-02T06:07:30+00:00 CRITICAL syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ',' in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\templates\front\vendor-sold-by.php on line 32
+
+2022-05-02T06:07:38+00:00 CRITICAL syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ',' in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\templates\front\vendor-sold-by.php on line 32
+
+2022-05-02T06:08:46+00:00 CRITICAL syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ',' in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\templates\front\vendor-sold-by.php on line 33
+
+2022-05-02T06:09:07+00:00 CRITICAL syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ',' in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\templates\front\vendor-sold-by.php on line 33
+
+2022-05-02T06:09:29+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ',' in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\templates\front\vendor-sold-by.php on line 33
+
+2022-05-02T07:39:25+00:00 CRITICAL Uncaught Error: Call to undefined function wcv_get_vendor_sold_by() in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\templates\front\vendor-sold-by.php:29
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\classes\front\class-vendor-shop.php(228): wc_get_template('vendor-sold-by....', Array, 'wc-vendors/fron...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): WCV_Vendor_Shop::template_loop_sold_by('')
+#3 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\templates\content-product.php(65): do_action('woocommerce_aft...')
+#6 C:\xampp\htdocs\meet_demo\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\meet_demo\wp-con in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\templates\front\vendor-sold-by.php on line 29
+
+2022-05-02T09:03:53+00:00 CRITICAL syntax error, unexpected '=', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\meet_demo\wp-content\themes\twentytwenty\functions.php on line 842
+
+2022-05-02T09:03:55+00:00 CRITICAL syntax error, unexpected '=', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\meet_demo\wp-content\themes\twentytwenty\functions.php on line 842
+
+2022-05-02T10:43:51+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in C:\xampp\htdocs\meet_demo\wp-content\themes\twentytwenty\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(309): show_storename_on_single_bellow_the_price('http://localhos...', Object(WP_Post), false)
+#1 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(189): WP_Hook->apply_filters('http://localhos...', Array)
+#2 C:\xampp\htdocs\meet_demo\wp-includes\link-template.php(370): apply_filters('post_type_link', 'http://localhos...', Object(WP_Post), false, false)
+#3 C:\xampp\htdocs\meet_demo\wp-includes\link-template.php(201): get_post_permalink(Object(WP_Post), false, false)
+#4 C:\xampp\htdocs\meet_demo\wp-includes\link-template.php(764): get_permalink(Object(WP_Post))
+#5 C:\xampp\htdocs\meet_demo\wp-includes\general-template.php(3158): get_post_comments_feed_link(1119)
+#6 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): feed_links_extra(Array)
+#7 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.p in C:\xampp\htdocs\meet_demo\wp-content\themes\twentytwenty\functions.php on line 905
+
+2022-05-02T10:44:10+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in C:\xampp\htdocs\meet_demo\wp-content\themes\twentytwenty\functions.php:905
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(309): show_storename_on_single_bellow_the_price('http://localhos...', Object(WP_Post), false)
+#1 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(189): WP_Hook->apply_filters('http://localhos...', Array)
+#2 C:\xampp\htdocs\meet_demo\wp-includes\link-template.php(370): apply_filters('post_type_link', 'http://localhos...', Object(WP_Post), false, false)
+#3 C:\xampp\htdocs\meet_demo\wp-includes\link-template.php(201): get_post_permalink(Object(WP_Post), false, false)
+#4 C:\xampp\htdocs\meet_demo\wp-includes\link-template.php(764): get_permalink(Object(WP_Post))
+#5 C:\xampp\htdocs\meet_demo\wp-includes\general-template.php(3158): get_post_comments_feed_link(1119)
+#6 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): feed_links_extra(Array)
+#7 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.p in C:\xampp\htdocs\meet_demo\wp-content\themes\twentytwenty\functions.php on line 905
+
+2022-05-02T10:44:59+00:00 CRITICAL Uncaught Error: Call to undefined function dokan_get_store_info() in C:\xampp\htdocs\meet_demo\wp-content\themes\twentytwenty\functions.php:908
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): show_storename_on_single_bellow_the_price('')
+#1 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#4 C:\xampp\htdocs\meet_demo\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#7 C:\xampp\htdocs\meet_demo\wp-includes\template-loader.ph in C:\xampp\htdocs\meet_demo\wp-content\themes\twentytwenty\functions.php on line 908
+
+2022-05-02T10:51:47+00:00 CRITICAL Uncaught Error: Call to undefined function dokan_get_store_info() in C:\xampp\htdocs\meet_demo\wp-content\themes\twentytwenty\functions.php:908
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): show_storename_on_single_bellow_the_price('')
+#1 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#4 C:\xampp\htdocs\meet_demo\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#7 C:\xampp\htdocs\meet_demo\wp-includes\template-loader.ph in C:\xampp\htdocs\meet_demo\wp-content\themes\twentytwenty\functions.php on line 908
+
+2022-05-02T10:52:43+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\meet_demo\wp-content\themes\twentytwenty\functions.php on line 914
+
+2022-05-02T10:52:46+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\meet_demo\wp-content\themes\twentytwenty\functions.php on line 914
+
+2022-05-02T10:52:50+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\meet_demo\wp-content\themes\twentytwenty\functions.php on line 914
+
+2022-05-02T10:52:52+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\meet_demo\wp-content\themes\twentytwenty\functions.php on line 914
+
+2022-05-02T10:53:05+00:00 CRITICAL Uncaught Error: Call to undefined function dokan_get_store_info() in C:\xampp\htdocs\meet_demo\wp-content\themes\twentytwenty\functions.php:908
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): show_storename_on_single_bellow_the_price('')
+#1 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#4 C:\xampp\htdocs\meet_demo\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#7 C:\xampp\htdocs\meet_demo\wp-includes\template-loader.ph in C:\xampp\htdocs\meet_demo\wp-content\themes\twentytwenty\functions.php on line 908
+
+2022-05-02T11:53:10+00:00 CRITICAL Cannot redeclare store_link_product_page() (previously declared in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors-pro\public\class-wcvendors-pro-product-controller.php:2989) in C:\xampp\htdocs\meet_demo\wp-content\themes\twentytwenty\functions.php on line 946
+
+2022-05-02T12:09:37+00:00 CRITICAL Uncaught Error: Call to undefined method WCV_Vendors::get_vendor_shop_page() in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\classes\front\class-vendor-shop.php:66
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(309): WCV_Vendor_Shop::change_archive_link('http://localhos...')
+#1 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(189): WP_Hook->apply_filters('http://localhos...', Array)
+#2 C:\xampp\htdocs\meet_demo\wp-includes\link-template.php(1342): apply_filters('post_type_archi...', 'http://localhos...', 'product')
+#3 C:\xampp\htdocs\meet_demo\wp-includes\link-template.php(1362): get_post_type_archive_link('product')
+#4 C:\xampp\htdocs\meet_demo\wp-includes\general-template.php(3168): get_post_type_archive_feed_link('product')
+#5 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): feed_links_extra(Array)
+#6 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_ in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\classes\front\class-vendor-shop.php on line 66
+
+2022-05-02T12:13:41+00:00 CRITICAL Uncaught Error: Call to undefined method WCV_Vendors::get_vendor_shop_page() in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\classes\front\class-vendor-shop.php:66
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(309): WCV_Vendor_Shop::change_archive_link('http://localhos...')
+#1 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(189): WP_Hook->apply_filters('http://localhos...', Array)
+#2 C:\xampp\htdocs\meet_demo\wp-includes\link-template.php(1342): apply_filters('post_type_archi...', 'http://localhos...', 'product')
+#3 C:\xampp\htdocs\meet_demo\wp-includes\link-template.php(1362): get_post_type_archive_link('product')
+#4 C:\xampp\htdocs\meet_demo\wp-includes\general-template.php(3168): get_post_type_archive_feed_link('product')
+#5 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): feed_links_extra(Array)
+#6 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_ in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\classes\front\class-vendor-shop.php on line 66
+

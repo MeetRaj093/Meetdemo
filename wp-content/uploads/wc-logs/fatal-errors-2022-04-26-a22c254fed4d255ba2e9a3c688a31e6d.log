@@ -1,0 +1,11 @@
+2022-04-26T07:41:38+00:00 CRITICAL Uncaught Error: Call to a member function save() on null in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors-pro\public\class-wcvendors-pro-product-controller.php:629
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors-pro\public\class-wcvendors-pro-product-controller.php(519): WCVendors_Pro_Product_Controller->save_meta(1122)
+#1 C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors-pro\public\class-wcvendors-pro-product-controller.php(167): WCVendors_Pro_Product_Controller->save_product()
+#2 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): WCVendors_Pro_Product_Controller->process_submit('')
+#3 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\meet_demo\wp-includes\template-loader.php(13): do_action('template_redire...')
+#6 C:\xampp\htdocs\meet_demo\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xam in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors-pro\public\class-wcvendors-pro-product-controller.php on line 629
+

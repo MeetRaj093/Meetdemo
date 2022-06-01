@@ -1,0 +1,12 @@
+2022-04-28T05:44:29+00:00 CRITICAL Uncaught Error: Class 'WCV_Widget_Store_Search' not found in C:\xampp\htdocs\meet_demo\wp-includes\class-wp-widget-factory.php:61
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-includes\widgets.php(115): WP_Widget_Factory->register('WCV_Widget_Stor...')
+#1 C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors-pro\admin\class-wcvendors-pro-admin.php(421): register_widget('WCV_Widget_Stor...')
+#2 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): WCVendors_Pro_Admin->register_widgets('')
+#3 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\meet_demo\wp-includes\widgets.php(1854): do_action('widgets_init')
+#6 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): wp_widgets_init('')
+#7 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_Hook in C:\xampp\htdocs\meet_demo\wp-includes\class-wp-widget-factory.php on line 61
+

@@ -1,0 +1,84 @@
+2022-05-06T05:30:05+00:00 CRITICAL syntax error, unexpected ''" class="woocommerce-LoopProd' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1210
+
+2022-05-06T05:30:05+00:00 CRITICAL syntax error, unexpected ''" class="woocommerce-LoopProd' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1210
+
+2022-05-06T05:30:10+00:00 CRITICAL syntax error, unexpected ''" class="woocommerce-LoopProd' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1210
+
+2022-05-06T05:30:22+00:00 CRITICAL syntax error, unexpected ''" class="woocommerce-LoopProd' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1210
+
+2022-05-06T05:31:19+00:00 CRITICAL syntax error, unexpected ''" class="woocommerce-LoopProd' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1210
+
+2022-05-06T05:31:38+00:00 CRITICAL syntax error, unexpected ''" class="woocommerce-LoopProd' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1210
+
+2022-05-06T12:03:07+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\classes\includes\wcv-update-functions.php:188
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): bbloomer_change_product_permalink_shop('http://localhos...', Object(WC_Product_Simple))
+#1 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(189): WP_Hook->apply_filters('http://localhos...', Array)
+#2 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1198): apply_filters('woocommerce_loo...', 'http://localhos...', Object(WC_Product_Simple))
+#3 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): woocommerce_template_loop_product_link_open('')
+#4 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\templates\content-product.php(34): do_a in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\classes\includes\wcv-update-functions.php on line 188
+
+2022-05-06T12:13:57+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on string in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1422
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1368): woocommerce_get_product_thumbnail()
+#1 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): woocommerce_template_loop_product_thumbnail('')
+#2 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\templates\content-product.php(42): do_action('woocommerce_bef...')
+#5 C:\xampp\htdocs\meet_demo\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#7 C:\xampp\htdocs\meet_demo\wp-content\plugins\wooc in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1422
+
+2022-05-06T12:20:36+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_id() in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\classes\includes\wcv-update-functions.php:191
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): bbloomer_change_product_permalink_shop('http://localhos...', Object(WP_Post))
+#1 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(189): WP_Hook->apply_filters('http://localhos...', Array)
+#2 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1198): apply_filters('woocommerce_loo...', 'http://localhos...', Object(WC_Product_Simple))
+#3 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): woocommerce_template_loop_product_link_open('')
+#4 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\templates\content-product.php(34): do_action('wooco in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\classes\includes\wcv-update-functions.php on line 191
+
+2022-05-06T12:20:51+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_id() in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\classes\includes\wcv-update-functions.php:191
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): bbloomer_change_product_permalink_shop('http://localhos...', Object(WP_Post))
+#1 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(189): WP_Hook->apply_filters('http://localhos...', Array)
+#2 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1198): apply_filters('woocommerce_loo...', 'http://localhos...', Object(WC_Product_Simple))
+#3 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): woocommerce_template_loop_product_link_open('')
+#4 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\templates\content-product.php(34): do_action('wooco in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\classes\includes\wcv-update-functions.php on line 191
+
+2022-05-06T13:01:21+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function bbloomer_change_product_permalink_shop(), 2 passed in C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php on line 307 and exactly 3 expected in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\classes\includes\wcv-update-functions.php:187
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): bbloomer_change_product_permalink_shop('http://localhos...', Object(WC_Product_Simple))
+#1 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(189): WP_Hook->apply_filters('http://localhos...', Array)
+#2 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1198): apply_filters('woocommerce_loo...', 'http://localhos...', Object(WC_Product_Simple))
+#3 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): woocommerce_template_loop_product_link_open('')
+#4 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\meet_demo\wp-includes in C:\xampp\htdocs\meet_demo\wp-content\plugins\wc-vendors\classes\includes\wcv-update-functions.php on line 187
+
+2022-05-06T13:07:33+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on string in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1422
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1368): woocommerce_get_product_thumbnail()
+#1 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): woocommerce_template_loop_product_thumbnail('')
+#2 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\templates\content-product.php(42): do_action('woocommerce_bef...')
+#5 C:\xampp\htdocs\meet_demo\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#7 C:\xampp\htdocs\meet_demo\wp-content\plugins\wooc in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1422
+
+2022-05-06T13:08:14+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on string in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1422
+Stack trace:
+#0 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1368): woocommerce_get_product_thumbnail()
+#1 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(307): woocommerce_template_loop_product_thumbnail('')
+#2 C:\xampp\htdocs\meet_demo\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\meet_demo\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\templates\content-product.php(42): do_action('woocommerce_bef...')
+#5 C:\xampp\htdocs\meet_demo\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#7 C:\xampp\htdocs\meet_demo\wp-content\plugins\wooc in C:\xampp\htdocs\meet_demo\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1422
+

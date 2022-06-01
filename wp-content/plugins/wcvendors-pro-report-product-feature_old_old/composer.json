@@ -1,0 +1,23 @@
+{
+  "name": "wcvendors/wc-vendors-pro",
+  "description": "WC Vendors Pro extends WC Vendors to provide a true marketplace experience for your vendors through a comprehensive front end dashboard.",
+  "autoload": {
+    "classmap": [
+      "admin/",
+      "includes/",
+      "public/"
+    ],
+    "files": [
+      "includes/wcv-functions.php"
+    ]
+  },
+  "require-dev": {
+    "10up/phpcs-composer": "dev-master",
+    "brain/monkey": "^2.3",
+    "phpunit/phpunit": "^8.4"
+  },
+  "scripts": {
+    "lint": "phpcs --standard=WordPress wc-vendors-pro.php admin includes public templates",
+    "fix": "phpcbf --standard=WordPress wc-vendors-pro.php admin includes public templates"
+  }
+}
